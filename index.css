@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --body-font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: var(--body-font-family);
+}
+
+/* Multiple Desktop size */
+.container {
+    width: 1120px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    background: url(./img/Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+nav {
+    padding-top: 30px;
+    padding-bottom: 160px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.list {
+    display: flex;
+    gap: 15px;
+}
+
+.list__item {
+    color: #FFF;
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: .6s;
+}
+
+.list__item:hover{
+    border-bottom: 2px solid #FFF;
+    transition: .6s;
+}
+
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background: transparent;
+    transition: .5s;
+}
+
+.btn:hover {
+    color: #ED4C5C;
+    background: #FFF;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header__box {
+    text-align: center;
+}
+
+.header__text {
+    color: #FFF;
+    font-family: var(--body-font-family);
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    /* 36px */
+}
+
+.header__info {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.header__btn {
+    color: #ED4C5C;
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 160px;
+    height: 50px;
+    background: #FFF;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 140px;
+    transition: .6s;
+}
+
+.header__btn:hover{
+    color: #FFF;
+    border: 1px solid #FFF;
+    transition: .6s;
+    background: transparent;
+    cursor: pointer;
+}
